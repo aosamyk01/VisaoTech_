@@ -1,0 +1,73 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.banner img{
+	width: 100%; /* Nova largura */
+	height: 10%;
+}
+body{
+	background-color: #f5e0f2;
+	font-family: "Open Sans Condensed", sans-serif;
+}
+h1{
+	color: #64045c;
+	font-family: "Archivo Black", sans-serif;
+	text-align: center;
+}
+h2{
+	margin-top: 50px;
+	color: #64045c;
+	font-family: "Archivo Black", sans-serif;
+	text-align: center;
+	margin-bottom: 15px;
+}
+a{
+	text-decoration: none;
+	color: #64045c;
+	font-family: "Open Sans Condensed", sans-serif;
+}
+.cabecalho {
+	background-color: #DBB6EE;
+	padding: 25px 0;
+	text-align: center;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.texto,.mulheres{
+	width: 90%;
+	margin:  0 auto;
+	text-align: justify;
+}
+.nomes {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+
+.icon {
+	width: 80px;
+	height: 80px;
+	object-fit: cover;
+	border-radius: 500px;
+}
+#link a:link, a:visited{
+	text-decoration: none;
+	color: white;
+	margin-left: 20px;
+	}
+	#link a:hover{
+	background-color: #460464 ;
+	}
+	
+	.rodape {
+		background-color: #DBB6EE;
+		color: #fff;
+		text-align: center;
+		padding: 20px 0;
+		position: fixed;
+		bottom: 0px;
+		width: 100%;
+		position: relative;
+	  }
+
+	  
