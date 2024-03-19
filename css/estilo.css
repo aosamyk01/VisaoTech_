@@ -9,6 +9,8 @@
 body{
 	background-color: #f5e0f2;
 	font-family: "Open Sans Condensed", sans-serif;
+	height: 100vh;
+	position: relative;
 }
 h1{
 	color: #64045c;
@@ -50,24 +52,33 @@ a{
 	object-fit: cover;
 	border-radius: 500px;
 }
-#link a:link, a:visited{
+#link a{
 	text-decoration: none;
 	color: white;
 	margin-left: 20px;
+	border-radius: 80px;
+	transition: all 0.3s ease; 
 	}
 	#link a:hover{
 	background-color: #460464 ;
 	}
 	
-	.rodape {
+	.footer {
 		background-color: #DBB6EE;
-		color: #fff;
+		padding: 20px;
 		text-align: center;
-		padding: 20px 0;
-		position: fixed;
-		bottom: 0px;
+		color: #fff;
 		width: 100%;
-		position: relative;
-	  }
-
-	  
+		bottom: 0;
+	}
+	.footer1 {
+		background-color: #DBB6EE;
+		padding: 20px;
+		text-align: center;
+		color: #fff;
+		width: 100%;
+		bottom: 0;
+		position: fixed;
+	}
+	.content {
+		margin-bottom: 80px; }
